@@ -12,6 +12,12 @@ If you use any of the scripts, input files, or other materials provided in this 
 
 https://doi.org/10.64898/2026.11.13.766518
 
+## Simulation
+Molecular dynamics simulations were performed using GROMACS 2023.5, patched with PLUMED 2.9.3.
+
+Simulations were executed using the following command:
+gmx2023.5_PLUMED-2.9.3_cuda_mpi mdrun -deffnm md_0_2 -pin on -v -nsteps 250000000 -ntomp 4 -plumed plumed_helix.dat -cpi -pinoffset 0 -pinstride 0 -multidir 0 1 2 3 4 5 6 7 -hrex -replex 10000
+
 ## Repository Structure
 
 The repository is organized into four main folders:
