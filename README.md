@@ -1,6 +1,6 @@
 # Publication: Multimodal Conformational Landscape and Thermodynamics of Folding and Binding in an Intrinsically Disordered Protein Region
 
-This repository contains the simulation input files, analysis scripts, and supporting materials associated with the following publication:
+This repository contains the simulation input files, analysis scripts, and supporting materials associated with the following manuscript:
 
 **Multimodal conformational landscape and thermodynamics of coupled folding and binding in an intrinsically disordered protein region**
 
@@ -8,7 +8,7 @@ This repository contains the simulation input files, analysis scripts, and suppo
 
 ## Citation
 
-If you use any of the scripts, input files, or other materials provided in this repository, please cite the following publication:
+If you use any of the scripts, input files, or other materials provided in this repository, please cite the following manuscript:
 
 https://doi.org/10.64898/2026.11.13.766518
 
@@ -18,7 +18,7 @@ The repository is organized into four main folders:
 
 ### 1. `Code/`
 
-Contains Jupyter notebooks used to analyse the molecular dynamics (MD) simulation data and generate the figures presented in the publication.
+Contains Jupyter notebooks used to analyse the molecular dynamics (MD) simulation data and generate the figures presented in the manuscript.
 
 ### 2. `Folding/`
 
