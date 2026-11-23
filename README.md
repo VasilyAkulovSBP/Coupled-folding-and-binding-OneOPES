@@ -1,4 +1,4 @@
-# Publication: Multimodal Conformational Landscape and Thermodynamics of Folding and Binding in an IDR
+# Publication: Multimodal Conformational Landscape and Thermodynamics of Folding and Binding in an Intrinsically Disordered Protein Region
 
 This repository contains the simulation input files, analysis scripts, and supporting materials associated with the following publication:
 
