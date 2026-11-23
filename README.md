@@ -24,7 +24,7 @@ Contains Jupyter notebooks used to analyse the molecular dynamics (MD) simulatio
 
 Contains the setup and input files for the OneOPES simulations of FCP1term in isolation (i.e., without RAP74).
 
-Following the OneOPES framework, eight independent replicas were employed, with bias-sharing enabled between replicas. The PLUMED configuration files (`plumed_helix.dat`) can be found in the corresponding replica directories.
+Following the OneOPES framework, eight replicas were employed. The PLUMED configuration files (`plumed_helix.dat`) can be found in the corresponding replica directories.
 
 ### 3. `Binding/`
 
@@ -32,7 +32,7 @@ Contains the setup and input files for the OneOPES simulations of the FCP1termâ€
 
 In these simulations, FCP1term was subjected to structural restraints that maintained its helical conformation while allowing it to dissociate from RAP74 and explore the unbound state within the imposed restraints.
 
-Following the OneOPES framework, eight independent replicas were employed, with bias-sharing enabled between replicas. The PLUMED configuration files (`plumed_helix.dat`) can be found in the corresponding replica directories.
+Following the OneOPES framework, eight replicas were employed. The PLUMED configuration files (`plumed_helix.dat`) can be found in the corresponding replica directories.
 
 ### 4. `Folding_and_binding/`
 
@@ -40,4 +40,4 @@ Contains the setup and input files for the OneOPES simulations of the FCP1termâ€
 
 Unlike the simulations described in the `Binding/` folder, no structural restraints were applied to FCP1term, allowing it to freely explore different conformational states. Additionally, one extra supporting collective variable (CV) was included in the PLUMED configuration (`plumed_helix.dat`).
 
-Following the OneOPES framework, eight independent replicas were employed, with bias-sharing enabled between replicas. The PLUMED configuration files (`plumed_helix.dat`) can be found in the corresponding replica directories.
+Following the OneOPES framework, eight replicas were employed. The PLUMED configuration files (`plumed_helix.dat`) can be found in the corresponding replica directories.
